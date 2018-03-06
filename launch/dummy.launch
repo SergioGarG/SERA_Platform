@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+<!---
+  <node name="adaptationmanager" pkg="ms1_kth" type="ltladaptationmanager.py" output="screen" clear_params="true"></node> -->
+  <node name="adaptationmanager" pkg="ms1_kth" type="ltladaptationmanager.py" output="screen" clear_params="true"></node>
+  
+  <node name="planexecutor" pkg="sera" type="dummyplanexecutor.py" output="screen" clear_params="true"></node>
+
+</launch>
